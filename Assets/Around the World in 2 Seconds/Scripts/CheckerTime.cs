@@ -10,6 +10,7 @@ public class CheckerTime : MonoBehaviour
 		if (col.name.Contains("CheckerTime"))
 		{
 			isOut = false;
+		
 		}
 	}
 

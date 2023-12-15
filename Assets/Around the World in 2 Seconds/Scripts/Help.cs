@@ -4,9 +4,10 @@ using System.Collections;
 public class Help : MonoBehaviour 
 {
 	public Animator help;
-
+	
 	void OnMouseDown()
-	{
+		
+	{	
 		transform.localScale = new Vector3(0.9f,0.9f,1);
 	}
 	

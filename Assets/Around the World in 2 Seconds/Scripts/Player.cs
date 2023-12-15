@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
 
 	public AudioClip jump;
 	public AudioClip dead;
+	public
 
 	Animator anim;
 
@@ -34,7 +35,7 @@ public class Player : MonoBehaviour
 			}
 		}
 	}
-
+	
 	void OnTriggerEnter2D(Collider2D col) 
 	{
 		if (col.tag.Contains("Enemy"))
